@@ -1,0 +1,37 @@
+:root{
+
+    --soft-orange: hsl(35, 77%, 62%);
+    --soft-red: hsl(5, 85%, 63%);
+
+
+    --off-white: hsl(36, 100%, 99%);
+    --grayish-blue: hsl(233, 8%, 79%);
+    --dark-grayish-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
+
+}
+
+.bg-dark-blue{
+    background-color: var(--very-dark-blue) !important;
+}
+
+.bg-soft-red{
+    background-color: var(--soft-red) !important;
+}
+
+.clr-soft-red{
+    color: var(--soft-red);
+}
+
+.clr-orange{
+    color: var(--soft-orange);
+    font-size: 1.5rem !important;
+}
+
+.clr-white{
+    color: var(--off-white);
+}
+
+h3, h2{
+    font-size: 1.2rem !important;
+}
